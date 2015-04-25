@@ -37,7 +37,7 @@ Rectangle {
 
         onLoginSucceeded: {
             errorMessage.color = "steelblue"
-            errorMessage.text = textConstants.loginSucceeded
+            errorMessage.text = textConstants.loginSucceded
         }
 
         onLoginFailed: {
